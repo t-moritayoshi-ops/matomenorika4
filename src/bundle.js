@@ -166,7 +166,7 @@ class GateManager {
             }
         }
 
-        // 次の問題のスポーン：画面上にゲートがなくなってから約4秒後に出現
+        // 次の問題のスポーン：画面上にゲートがなくなってから約2秒後に出現
         if (this.gates.length === 0) {
             this.spawnTimer += deltaTime;
             if (this.spawnTimer >= this.spawnInterval) {
